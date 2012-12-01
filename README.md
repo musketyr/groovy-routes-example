@@ -1,6 +1,6 @@
 # Groovy Routes Example
 
-This example project contains routes support extracted from 
+This example project contains universal flexible URL routing support extracted from 
 [Gaelyk Routes](http://gaelyk.appspot.com/tutorial/url-routing). All non-GAE related features should be supported.
 
 Please download 

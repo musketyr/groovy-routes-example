@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    groovy "org.codehaus.groovy:groovy-all:2.0.5"
+    //compile 'javax.servlet:servlet-api:2.5'
+    compile files('lib/routes-2.0-SNAPSHOT.jar')
+}
